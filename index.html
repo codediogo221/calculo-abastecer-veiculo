@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cálculo</title>
+</head>
+<body onload="clearInputValues()">
+    <div class="tela">
+        <form action="" id="form">
+            <h1>Qual a melhor opção?</h1>
+            <div class="input_box">
+                <label for="ialcool">Álcool (preço por litro R$):</label>
+                <input type="text" name="alcool" id="ialcool">
+            </div>
+
+            <div class="input_box">
+                <label for="igasolina">Gasolina (preço por litro R$):</label>
+                <input type="text" name="gasolina" id="igasolina">
+            </div>
+
+            <button class="btn" type="submit">Calcular</button>
+        </form>
+        <div id="resultado"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
